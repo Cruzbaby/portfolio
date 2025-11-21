@@ -11,6 +11,7 @@ const skills = {
         { name: "HTML", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
         { name: "CSS", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
         { name: "LUA", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" },
+        { name: "MQL5", imgSrc: "https://upload.wikimedia.org/wikipedia/commons/b/b1/MQL5_Community_Logo.png" },
       ],
     Databases: [
         { name: "PostgreSQL", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
@@ -37,6 +38,7 @@ const skills = {
         { name: "Firebase", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
         { name: "Google Cloud", imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" },
         { name: "OpenAI API", imgSrc: "https://cdn.cruz-dev.com/image-1748573818239.png" },
+        { name: "Gemini API", imgSrc: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png" },
     ],
       
   };

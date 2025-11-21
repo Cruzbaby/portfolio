@@ -6,7 +6,7 @@ const experiences = [
     position: "Full Stack Developer",
     date: "2025 - Present",
     location: "Remote",
-    logo: "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?semt=ais_hybrid&w=740&q=80",
+    logo: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/24ed9392232693.5e45b4885aef5.jpg",
     description: [
       "Provided freelance development services for FiveM-related projects, focusing on building and maintaining game and server-side systems using Lua.",
       "Designed and implemented licensing systems and secure permission controls to protect client intellectual property.",

@@ -7,6 +7,7 @@ const experiences = [
     position: "Full Stack Developer",
     date: "2025 - Present",
     location: "Remote",
+    status: "ดำเนินการในปัจจุบัน",
     logo:
       "https://mir-s3-cdn-cf.behance.net/project_modules/fs/24ed9392232693.5e45b4885aef5.jpg",
     description: [
@@ -21,6 +22,7 @@ const experiences = [
     position: "Full Stack Developer",
     date: "2025 - Present",
     location: "Remote",
+    status: "ดำเนินการในปัจจุบัน",
     logo: "https://cdn.cruz-dev.com/image-1760814661206.png",
     description: [
       "Worked as an outsourced developer, designing and developing systems for FiveM using Lua, focusing on stability and performance for both game and server-side operations.",
@@ -34,6 +36,7 @@ const experiences = [
     position: "Full Stack Developer",
     date: "2022 - 2025",
     location: "Work from home",
+    status: "ปิดกิจการไปแล้ว",
     logo: "https://cdn.cruz-dev.com/image-1747616282869.png",
     description: [
       "Maintained and developed FiveM server systems using Lua, from creating new features to fixing bugs.",
@@ -48,10 +51,11 @@ const experiences = [
     ],
   },
   {
-    company: "Cruz Developer ( Fivem Shop )",
+    company: "Cruz Developer ( Fivem Shop ) ",
     position: "Full Stack Developer",
     date: "2022 - 2025",
     location: "Remote",
+    status: "ปิดกิจการไปแล้ว",
     logo: "https://cdn.cruz-dev.com/image-1747609951699.png",
     description: [
       "Engineered custom systems for FiveM using Lua, enhancing gameplay and server-side stability.",
@@ -67,6 +71,23 @@ const experiences = [
     ],
   },
 ];
+
+const statusStyles: Record<
+  string,
+  {
+    badge: string;
+  }
+> = {
+  ดำเนินการในปัจจุบัน: {
+    badge: "border border-emerald-400/40 bg-emerald-500/15 text-emerald-200",
+  },
+  ไม่ได้ทำแล้ว: {
+    badge: "border border-amber-400/40 bg-amber-500/10 text-amber-200",
+  },
+  ปิดกิจการไปแล้ว: {
+    badge: "border border-rose-400/40 bg-rose-500/10 text-rose-200",
+  },
+};
 
 export default function WorkExperience() {
   return (
@@ -122,6 +143,13 @@ export default function WorkExperience() {
                 <div className="text-right text-sm text-slate-400">
                   <p>{exp.date}</p>
                   <p>{exp.location}</p>
+                  {exp.status && (
+                    <span
+                      className={`mt-2 inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium ${statusStyles[exp.status]?.badge ?? "border border-white/20 bg-white/5 text-slate-200"}`}
+                    >
+                      {exp.status}
+                    </span>
+                  )}
                 </div>
               </div>
 

@@ -2,6 +2,19 @@ import React from "react";
 
 const experiences = [
   {
+    company: "Freelance Developer",
+    position: "Full Stack Developer",
+    date: "2025 - Present",
+    location: "Remote",
+    logo: "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?semt=ais_hybrid&w=740&q=80",
+    description: [
+      "Provided freelance development services for FiveM-related projects, focusing on building and maintaining game and server-side systems using Lua.",
+      "Designed and implemented licensing systems and secure permission controls to protect client intellectual property.",
+      "Integrated external APIs to extend in-game functionalities and enhance user convenience for various clients.",
+      "Conducted data analysis and generated reports to help clients optimize business strategies and improve product offerings."
+    ],
+  },
+  {
     company: "Observe Production ( Fivem Shop )",
     position: "Full Stack Developer",
     date: "2025 - Present",
@@ -19,7 +32,7 @@ const experiences = [
   {
     company: "MiTH Community ( FiveM Server )",
     position: "Full Stack Developer",
-    date: "2022 - Present",
+    date: "2022 - 2025",
     location: "Work from home",
     logo: "https://cdn.cruz-dev.com/image-1747616282869.png",
     description: [
@@ -38,7 +51,7 @@ const experiences = [
   {
     company: "Cruz Developer ( Fivem Shop )",
     position: "Full Stack Developer",
-    date: "2022 - Present",
+    date: "2022 - 2025",
     location: "Remote",
     logo: "https://cdn.cruz-dev.com/image-1747609951699.png",
     description: [

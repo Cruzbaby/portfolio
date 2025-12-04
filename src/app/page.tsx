@@ -3,6 +3,7 @@ import Image from "next/image";
 import Expertise from "@/components/Expertise";
 import SkillsSection from "@/components/skill";
 import WorkExperience from "@/components/WorkExperience";
+import Portfolio from "@/components/Portfolio";
 
 const highlightChips = [
   "Full-stack developer",
@@ -124,6 +125,7 @@ export default function Home() {
         <Expertise />
         <SkillsSection />
         <WorkExperience />
+        <Portfolio />
       </div>
     </main>
   );

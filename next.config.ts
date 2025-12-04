@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "scontent.fbkk29-4.fna.fbcdn.net",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "upload.wikimedia.org",
         pathname: "/**",
       },

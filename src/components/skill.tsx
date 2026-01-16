@@ -76,6 +76,11 @@ const skills = {
       imgSrc:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg",
     },
+    {
+      name: "Supabase",
+      imgSrc:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+    },
   ],
   Frameworks: [
     {

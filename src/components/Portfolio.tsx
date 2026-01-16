@@ -25,10 +25,39 @@ const projects: Project[] = [
     title: "likedee-platform",
     description: "All-in-one social media marketing platform with automated order processing and payment gateway integration.",
     image: "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/518284643_122107937330941884_5215435152373039810_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Z-iIOctSSv8Q7kNvwGaDCZD&_nc_oc=AdkkTwBHpqO_UqWLBhfWbI2UEyMWpI5qumMt2UNZfnV5vihgFws7nbpvWBj5ED3l6yh7fs7P7sN3WQLxXBjkPQtq&_nc_zt=23&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=zphooehBfeqsDWWRC0C4-Q&oh=00_AfnjMSIy8alHrPi7vXgO6QzBqqtRA1Hv9HJr1dQilvcOgA&oe=69379A81",
-    tags: ["Next.js", "MySQL", "Prisma", "Stripe"],
+    tags: ["PHP", "MySQL", "Laravel", "Stripe"],
     category: "web",
     link: "https://likedee.com/",
     stats: { stars: 124, forks: 30 },
+    status: "public"
+  },
+  {
+    title: "gtopoker-ai",
+    description: "AI-powered poker player for the GTO Poker platform.",
+    image: "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/518284643_122107937330941884_5215435152373039810_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Z-iIOctSSv8Q7kNvwGaDCZD&_nc_oc=AdkkTwBHpqO_UqWLBhfWbI2UEyMWpI5qumMt2UNZfnV5vihgFws7nbpvWBj5ED3l6yh7fs7P7sN3WQLxXBjkPQtq&_nc_zt=23&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=zphooehBfeqsDWWRC0C4-Q&oh=00_AfnjMSIy8alHrPi7vXgO6QzBqqtRA1Hv9HJr1dQilvcOgA&oe=69379A81",
+    tags: ["Next.js", "Supabase", "Stripe, CoinPayment"],
+    category: "web",
+    link: "https://gtopoker.ai/",
+    stats: { stars: 300, forks: 201 },
+    status: "public"
+  },
+  {
+    title: "Observe-custom",
+    description: "Custom Product for observe production.",
+    image: "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/518284643_122107937330941884_5215435152373039810_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Z-iIOctSSv8Q7kNvwGaDCZD&_nc_oc=AdkkTwBHpqO_UqWLBhfWbI2UEyMWpI5qumMt2UNZfnV5vihgFws7nbpvWBj5ED3l6yh7fs7P7sN3WQLxXBjkPQtq&_nc_zt=23&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=zphooehBfeqsDWWRC0C4-Q&oh=00_AfnjMSIy8alHrPi7vXgO6QzBqqtRA1Hv9HJr1dQilvcOgA&oe=69379A81",
+    tags: ["Next.js", "MySQL", "Tmweasy"],
+    category: "web",
+    link: "https://observe-custom.com/",
+    stats: { stars: 300, forks: 201 },
+    status: "public"
+  },
+  {
+    title: "Fivem license api",
+    description: "License API for fivem product.",
+    image: "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/518284643_122107937330941884_5215435152373039810_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Z-iIOctSSv8Q7kNvwGaDCZD&_nc_oc=AdkkTwBHpqO_UqWLBhfWbI2UEyMWpI5qumMt2UNZfnV5vihgFws7nbpvWBj5ED3l6yh7fs7P7sN3WQLxXBjkPQtq&_nc_zt=23&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=zphooehBfeqsDWWRC0C4-Q&oh=00_AfnjMSIy8alHrPi7vXgO6QzBqqtRA1Hv9HJr1dQilvcOgA&oe=69379A81",
+    tags: ["Node.js", "MySQL", "Rest API", "JWT"],
+    category: "tool",
+    stats: { stars: 300, forks: 201 },
     status: "public"
   },
   // {
